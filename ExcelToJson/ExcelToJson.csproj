@@ -72,7 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExcelToJson_Main.cs" />
-    <Compile Include="ExcelToJson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
@@ -105,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="xlsx\Core.Users.xlsx" />
     <None Include="xlsx\JSONPayloads.xlsx" />
   </ItemGroup>
   <ItemGroup>

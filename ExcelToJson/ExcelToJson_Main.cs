@@ -51,7 +51,7 @@ namespace ExcelToJson
                                 //TODO: configure whether to skip header
                                 if (count > 0)
                                 {
-                                    sw.WriteLine("{0}", cell.Value.ToString().Replace(@"\", ""));
+                                    sw.WriteLine("{0}", cell.Value.ToString());
                                 }
                                 count++;
 
